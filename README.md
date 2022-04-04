@@ -30,26 +30,8 @@
 - A Manager can view all Employees
 - A Manager can view reimbursement requests from a single Employee 
 
-
-**State-chart Diagram (Reimbursement Statuses)** 
-![](./imgs/state-chart.jpg)
-
-**Reimbursement Types**
-
-Employees must select the type of reimbursement as: LODGING, TRAVEL, FOOD, or OTHER.
-
-**Logical Model**
-![](./imgs/logical.jpg)
-
-**Physical Model**
-![](./imgs/physical.jpg)
-
-**Use Case Diagram**
-![](./imgs/use-case.jpg)
-
-**Activity Diagram**
-![](./imgs/activity.jpg)
-
-*FrontEnd Uses Angular, run ng serve in employeereimbursement app
-*BackEnd Uses Springboot with apache tomcat, run application on localhost:port 7072
+#### Installation
+###### FrontEnd Uses Angular, Extract the rar, run ng serve in employeereimbursementapp extracted folder, Go to localhost:4200
+###### BackEnd Uses Springboot with apache tomcat, run application on localhost:7072
+###### DataBase is connected through AWS RDS so it should be accessible anywhere
 
