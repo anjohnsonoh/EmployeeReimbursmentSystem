@@ -1,0 +1,21 @@
+<body>
+    <h1>Revature</h1>  
+    <form name="loginForm" #loginForm="ngForm" (ngSubmit)="login(loginForm)" required> 
+    <div>
+        <h3>Username</h3>
+        <input type="text" id="username" ngModel name="username" placeholder="username" required>
+    </div>
+    <div>
+        <h3>Password</h3>
+        <input type="password" ngModel name = "password" placeholder="password" required>
+    </div>
+    <button [disabled]=loginForm.invalid type="submit">
+        submit
+    </button>
+    </form>
+    <div>
+        <a href="/register"> register</a>
+        
+
+    </div>
+</body>

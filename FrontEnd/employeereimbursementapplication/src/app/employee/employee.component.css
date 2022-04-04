@@ -1,0 +1,51 @@
+h1{
+    color: white
+}
+body{
+    position: absolute;
+    top: 10.4%;
+    left: 0;
+    right: 0;
+    bottom: 0; 
+    overflow: auto;
+    background: rgb(255, 128, 43);
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+table{
+    align-content: center;
+    background-color: white;
+    border:3px solid black;
+    border-collapse: collapse;
+    width: 50%;
+    margin-left: 25%;
+  }
+  th, td {
+    align-content: center;
+    background-color: white;
+    border:3px solid black;
+    border-collapse: collapse;    
+  }
+div{
+    background-color: rgb(238, 176, 101);
+    margin-left: 25%;
+    margin-right: 25%;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5%;
+}
+input:hover{
+    background-color: white;
+}
+input:active{
+    background-color: rgba(255, 255, 255, 0.151);
+}
+input{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: rgba(250, 237, 212, 0.575);
+    color: black;
+    border-style: solid;
+    border-color: black;
+}

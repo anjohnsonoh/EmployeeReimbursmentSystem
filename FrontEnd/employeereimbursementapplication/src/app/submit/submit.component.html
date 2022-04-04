@@ -1,0 +1,18 @@
+<p>submit works!</p>
+<body>
+    <div class="col-md-4 col-lg-4 col-md-offset-4 col-lg-offset-4">
+      <h1>Revature.com</h1>
+      <form name="addForm" #addForm="ngForm" (ngSubmit)="onAddReimbursement(addForm)">
+        <input id="amount" ngModel name="amount" type="number" placeholder="Amount" required>
+        <input id="description" ngModel name="description" type="text" placeholder="Description" required>
+        <input id="Type"ngModel name= "type"type="text"  placeholder="Type" required>
+        <button [disabled]="addForm.invalid" type="submit"> Submit </button>
+      </form>
+      <input type="button" value="Edit Login Info">
+      <br>
+      <input type="button" value="View Resolved Reimbursements" onclick="location.href='/resolved'"/>
+      <br>
+      <input type="button" value="View Pending Reimbursements" onclick="location.href='/pending'">
+      <br>
+    </div>
+  </body>

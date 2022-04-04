@@ -1,0 +1,22 @@
+<body>
+    <h1>Resolved Reimbursements</h1>
+    <br >
+    <table >
+        <tr>
+            <td>id</td>
+            <td>amount</td>
+            <td>description</td>
+        </tr>
+            <tr *ngFor="let reimbursement of reimbursements">
+                <td>{{reimbursement.id}}</td>
+                <td>{{reimbursement.amount}}</td>
+                <td>{{reimbursement.description}}</td>
+            </tr>
+    </table>
+    <input type="button" value="Edit Login Info">
+    <br>
+    <input type="button" value="Submit Reimbursement Request" onclick="location.href='/submit'">
+    <br>
+    <input type="button" value="View Pending Reimbursements" onclick="location.href='/pending'">
+    <br>
+    </body>

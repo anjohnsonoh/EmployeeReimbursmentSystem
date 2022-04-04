@@ -1,0 +1,21 @@
+header{
+    padding-top: 1px;
+    background-color: rgb(255, 115, 0);
+    margin: -11px;
+}
+h2{
+    color: white;
+    text-align: center;
+    margin-bottom: 21px;
+}
+button{
+    background-color: rgb(255, 203, 107);
+    border: 0;
+    margin-left: 2.5%;
+    align-content: center;
+    margin-right: 2.5%;
+    width: 20%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}

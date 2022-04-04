@@ -1,0 +1,44 @@
+body{
+    position: absolute;
+    top: 12%;
+    left: 0;
+    right: 0;
+    bottom: 0; 
+    overflow: auto;
+    background: rgb(255, 128, 43);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 0;
+    margin: 0;
+}
+
+
+button{
+    margin-top: 30px;
+    border-radius: 150px;
+    box-shadow: 0 0 0 2px rgba(255,255,255,.8);
+    color: rgba(255,255,255,.8);
+    background: 0 0;
+    border-color: transparent;
+    font-weight: 400;
+    font-size: 40px;
+}
+button:hover{
+    background-color: white;
+    color:orange
+}
+button:disabled{
+    background-color: rgb(49, 49, 49);
+}
+button:active{
+    background-color: rgba(255, 255, 255, 0.151);
+    color: white
+}
+input{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: rgba(250, 237, 212, 0.575);
+    color: black;
+    border-style: solid;
+    border-color: black;
+}

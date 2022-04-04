@@ -1,0 +1,42 @@
+<body>
+    <h1>Welcome {{user.username}}</h1>
+    <br >
+    <div>
+        <input type="button" value="Edit Login Info">
+        <br>
+        <input type="button" value="Submit Reimbursement Request" onclick="location.href='/submit'">
+        <br>
+        <input type="button" value="View Pending Reimbursements" onclick="location.href='/pending'">
+        <br>
+        <input type="button" value="View Resolved Reimbursements" onclick="location.href='/resolved'">
+        <br>
+        <input type="submit" value="Logout" (click)="logout()"class="btn">
+        </div>
+        <div *ngIf="manager"><div *ngFor="let user of users">{{user.username}}</div></div>
+        <div *ngIf="!manager">
+            <table>
+                <tr>
+                    <td>
+                        username
+                    </td>
+                    <td>
+                        email
+                    </td>
+                    <td>
+                        mobile
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        {{user.username}}
+                    </td>
+                    <td>
+                        {{user.email}}
+                    </td>
+                    <td>
+                        {{user.mobile}}
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>

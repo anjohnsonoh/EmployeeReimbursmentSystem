@@ -1,0 +1,24 @@
+<body>
+    <br>
+    <h1>Welcome {{user.username}}</h1>
+    <div>
+        <input type="button" value="Access Pending Reimbursement" onclick="location.href='/pending'">
+        <br>
+        <form action="localhost:7072/Reimbursements" method="get">
+            <input type="text" id="username" name ="username" placeholder="username">
+            <input type="button" value="Access User's Reimbursements">
+        </form>
+        <br>
+        <input type="button" value="View Resolved Requests" onclick="location.href='/resolved'">
+        <br>
+        <input type="button" value="View all Employees" onclick="location.href='/employee'">
+        <br>
+        <input type="submit" value="Logout" (click)="logout()"class="btn">
+    </div>
+</body>
+<script>
+    function my_button_click_handler()
+    {
+        console.log(user.service.getUsers())
+    }
+</script>
