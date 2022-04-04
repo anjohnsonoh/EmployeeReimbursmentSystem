@@ -31,7 +31,7 @@
 - A Manager can view reimbursement requests from a single Employee 
 
 #### Installation
-###### FrontEnd Uses Angular, Extract the rar, run ng serve in employeereimbursementapp extracted folder, Go to localhost:4200
+###### FrontEnd Uses Angular, run ng serve in employeereimbursementapplication folder, (you may need to run "npm install"in this location before "ng serve") Go to localhost:4200
 ###### BackEnd Uses Springboot with apache tomcat, run application on localhost:7072
 ###### DataBase is connected through AWS RDS so it should be accessible anywhere
 
