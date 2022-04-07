@@ -52,11 +52,20 @@ FrontEnd:
 3. cd into frontend/employeereimbursementapplication
 4. run "npm install" in this location
 5. run "ng serve" in this location
-6. Go to localhost:4200
+6. Go to localhost:4200/register
 
 DataBase is connected through AWS RDS so it should be accessible anywhere
 
 ## Usage
+At localhost:4200/register you can create a username and password for yourself to login with
+At localhost:4200/login you can login with you account info | You can login to a manager account using username: Tokala password: 123
+At localhost:4200/employee you can view your employee information | If logged in as a manager you can view all users
+At localhost:4200/submit you can submit a new reimbursement
+At localhost:4200/resolved you can view all resolved reimbursements
+At localhost:4200/pending you can view all pending reimbursements | If logged in as a manager, selecting the reimbursement button will approve the reimbursement
+At localhost:4200/manager you can view a page for navigating to different manager responsibilities
+
+
 
 ## License
 
